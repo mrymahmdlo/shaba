@@ -1,0 +1,37 @@
+:host ::ng-deep.ant-card-head{
+    border-bottom: 2px solid #007773 !important;
+}
+
+:host ::ng-deep.ant-card-head-title {
+font-weight: bold;
+font-size: medium;
+}
+
+.inputs{
+   width: 60%;
+   @media only screen and (max-width: 870px){
+    width: 90%;
+     }
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: start;
+    width: 60%;
+    margin-top: 10px;
+    @media only screen and (max-width: 870px){
+        width: 90%;
+         }
+}
+
+:host ::ng-deep.ant-btn-primary{
+    border-color: #5fbd64;
+    background: #5fbd64;
+}
+
+:host ::ng-deep.ant-input-group-addon{
+    @media only screen and (max-width: 500px){
+    display: table-row;
+}
+}

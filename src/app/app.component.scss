@@ -1,0 +1,25 @@
+nz-layout {
+  height: 100vh;
+}
+nz-content {
+  padding:  30px;
+}
+
+nz-footer {
+  text-align: center;
+  background-color: #C1C7AD;
+}
+
+:host ::ng-deep.ant-layout-footer{
+  padding: 10px 50px;
+}
+
+nz-header{
+  background-color: #FCFAF3;
+  height: auto;
+  padding: 15px;
+}
+
+.inner-content {
+  padding: 24px;
+}
